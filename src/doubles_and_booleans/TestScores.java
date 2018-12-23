@@ -13,7 +13,7 @@ public class TestScores {
 		} else if (score > 60 && score < 70) {
 			JOptionPane.showMessageDialog(null, "It's a passing score, but study more next time.");
 		} else if (score < 60) {
-			JOptionPane.showMessageDialog(null, "u need help");
+			JOptionPane.showMessageDialog(null, "u need help lol");
 		}
 	}
 }
