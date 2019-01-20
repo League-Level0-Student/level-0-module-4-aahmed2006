@@ -21,7 +21,7 @@ public class HappyPet {
 		// Make sure to customize the title and question too.
 		int task = JOptionPane.showOptionDialog(null, "What do you want to do to make your " + pet + " happy?",
 				pet + "Happiness", 0, JOptionPane.INFORMATION_MESSAGE, null,
-				new String[] { "cuddle", "food", "water", "take a walk", "groom", "clean up poop" }, null);
+				new String[] { "cuddle ", "food", "water", "take a walk", "groom", "clean up poop" }, null);
 
 		// 5. Use user input to call the appropriate method created in step 4.
 
