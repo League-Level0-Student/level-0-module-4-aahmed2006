@@ -13,7 +13,7 @@ public class OwnAdventure {
 			if (m == 0) {
 				JOptionPane.showMessageDialog(null, "you milked the cow");
 			} else {
-				JOptionPane.showMessageDialog(null, "sorry, you cannot milk this animal");
+				JOptionPane.showMessageDialog(null, "sorry, you cannot milk this animal.");
 			}
 		}
 	}
