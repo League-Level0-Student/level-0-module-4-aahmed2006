@@ -3,10 +3,19 @@ PImage tail;
 
 void setup() {
   donkey = loadImage("donkey.jpg");
-  size(600,450);
-  donkey.resize(600,450);
+  tail = loadImage("tail.png");
+  size(550,406);
+  tail.resize(125, 123);
 }
 
 void draw() {
-  background (donkey);
+  image(tail, mouseX, mouseY);
+  noFill();
+  rect(0,0,30,30);
+  rect(454, 75, 40, 40);
+  if(dist(0,0,mouseX, mouseY) < 30) {
+    background (donkey);
+} else {
+  background(#050505);
+}
 }
