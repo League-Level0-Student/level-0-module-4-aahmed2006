@@ -7,7 +7,7 @@ public class StringMethods1 {
 	public static void main(String[] args) {
 
 		// 1. Create a String variable and initialize it to whatever you want
-		String variable = "abcd";
+		String variable = "abcdef";
 		// 2. Print the 3rd char of your String to the console.
 		// HINT: .charAt
 		System.out.println(variable.charAt(3));
@@ -25,7 +25,9 @@ public class StringMethods1 {
 		// Print the char's position to the console.
 		// EXAMPLE: if your string is "abc" and you are searching
 		// for char 'b', then print "b is at index 1"
-
+for (int i = 0; i < variable.length(); i++) {
+	
+}
 	}
 
 }
