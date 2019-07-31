@@ -1,11 +1,13 @@
-int x =
+int x = 0;
 void setup() {
   size(400, 400);
   background(00000);
 }
 
 void draw() {
-  //fill(red, green, blue); //in draw method
-  //stroke(red, green, blue); //in draw method
-  ellipse(x, y, width, height); //in draw method
+  if(x > width) {
+  }
+  ellipse(0, 0, width, height); 
+  rect(mouseX, mouseY, 100, 50);
+  
 }
